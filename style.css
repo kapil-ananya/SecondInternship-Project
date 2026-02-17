@@ -678,23 +678,30 @@ margin-top:15px;
     color: white;
 }
 
-@media (max-width:768px){
-  .contact {
-    height: 500px;
-    width: auto;
-    margin-bottom: 800px;
-    text-align: center;
+@media(max-width:768px){
+
+  .info{
+    padding:22px;
+    border-radius:18px;
   }
-  .info {
-    margin-right: 45px;
-    text-align: center;
+
+  .info h2 {
+    font-size: 1.3rem;
+    color: var(--primary);
+    margin-right: 10px;
   }
-  #formMessage {
-    margin-left: 35px;
-    font-size: 1.2rem;
-    font-weight: 800;
+
+  .info p{
+    font-size:0.95rem;
+    gap:8px;
   }
+
+  .info strong{
+    min-width:85px;
+  }
+
 }
+
 
 @media (max-width: 768px){
   .projectbar .head {
