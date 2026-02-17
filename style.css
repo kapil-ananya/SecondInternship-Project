@@ -110,22 +110,29 @@
   border-bottom: 2px solid var(--accent);
   box-shadow: 0 20px 40px rgba(220, 38, 38, 0.12);
 }
-
 .image {
   text-align: center;
+  margin-top: 30px;
 }
 
 .image img {
-  height: 220px;
-  width: 200px;
+  height: 170px;
+  width: 150px;
   border-radius: 20px;
+  border: 3px solid var(--primary);
+  transition: transform 0.5s ease;
 }
 
-.image h3 {
-  margin-top: 15px;
-  font-size: 1.4rem;
-  color: var(--accent);
+.image img:hover {
+  transform: scale(1.1);
 }
+
+.image h2 {
+  font-size: 1.6rem;
+  margin-top: 10px;
+  color: #333;
+}
+
 
 #typed {
   color: var(--primary);
