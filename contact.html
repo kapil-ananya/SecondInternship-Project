@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo"><a href="#">Portfo<span>lio</span></a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="skill.html">SKILL</a></li>
+            <li><a href="project.html">PROJECTS</a></li>
+            <li><a href="contact.html" class="active">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+<section class="contact">
+
+  <div class="container">
+
+    <h1>Contact Me</h1>
+    <p class="tagline">Let’s connect and create something amazing together.</p>
+
+    <div class="contact-box">
+
+      <!-- Left Information-->
+      <div class="info">
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> ananyakapil7@gmail.com</p>
+        <p><strong>Location:</strong> India</p>
+        <p><strong>Availability:</strong> Open for internships & freelance</p>
+
+        <p class="note">I usually reply within 24 hours.</p>
+      </div>
+
+      <!-- Right form -->
+      <form class="form" id="form">
+    <input type="text" placeholder="Full Name" id="name" required>
+    <span id="name_error" style="color:red;font-size:0.9rem;"></span>
+
+    <input type="email" placeholder="Email" id="email" required>
+    <span id="email_error" style="color:red;font-size:0.9rem;"></span>
+
+    <input type="text" placeholder="Subject" id="Subject">
+    
+    <textarea placeholder="Message" rows="5" required id="msg"></textarea>
+    <span id="msg_error" style="color:red;font-size:0.9rem;"></span>
+    <button type="submit">Send Message</button>
+</form>
+      <p id="formMessage" style="display:none; font-weight: 600; color:green; margin-top:180px;">
+  Message sent successfully!
+</p>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+<footer class="footer-section">
+    <div class="one">
+        <p><i class="fa-solid fa-house"></i>home</p>
+        <p><i class="fa-regular fa-address-card"></i>about</p>
+        <p><i class="fa-solid fa-graduation-cap"></i>skill</p>
+        <p><i class="fa-solid fa-bars-progress"></i>progress</p>
+        <p><i class="fa-regular fa-address-book"></i>contact Us</p>
+        
+    </div>
+     <div class="two">
+        <h5><i class="fa-regular fa-copyright"></i>
+        2026 Ananya | Frontend Developer</h5>
+    </div>
+    <div class="three">
+  <h5>
+    <i class="fa-solid fa-mobile-retro"></i>
+    <a href="tel:5654XXXXXX">Mobile:- +91.......</a>
+  </h5>
+
+  <h5>
+    <i class="fa-brands fa-linkedin-in"></i>
+    <a href="https://www.linkedin.com/in/ananya-kapil-398a09343" target="_blank">
+      LinkedIn:- linkedin.com/in/ananya-kapil-398a09343
+    </a>
+  </h5>
+
+  <h5>
+    <i class="fa-brands fa-github"></i>
+    <a href="https://github.com/kapil-ananya?tab=repositories" target="_blank">
+      Github:- github.com/kapil-ananya
+    </a>
+  </h5>
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
