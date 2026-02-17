@@ -307,6 +307,11 @@
   border-radius:15px;
   box-shadow:0 15px 35px rgba(0,0,0,0.1);
   text-align:center;
+  border: 2px solid var(--primary);
+}
+
+.card-section div:hover {
+  box-shadow:0 0 12px rgba(250,204,21,0.6);
 }
 
 .card-section img{
@@ -327,9 +332,7 @@
   color: var(--text-dark);
 }
 
-.card-section p:hover {
-text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
-}
+
 
 /* responsive */
 @media (max-width:768px){
