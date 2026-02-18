@@ -92,9 +92,11 @@ const skillBox = document.querySelectorAll(".skill-box");
 
 skillBox.forEach(skillbox => {
   skillbox.addEventListener("click", () => {
-    skillbox.style.border="2px solid #4f46e5";
-  })
+   box.style.background = "#ffffff";
+    skillbox.style.color = "#000";
+  });
 });
+
 
 // project card effect
 const cards = document.querySelectorAll(".card-rounded");
